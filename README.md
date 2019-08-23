@@ -4,7 +4,7 @@ The code was written in Python 3 on the 23/08/2019.
 It is important to note that the code may generate significant CPU load at times (relative to a regular home PC).
 
 
-# Terms and content of the Challenge
+# The Terms and Content of the Challenge
 Background information:
 You can choose the programming language you feel the most comfortable with.
 We expect that you can solve this within 1 hour.
