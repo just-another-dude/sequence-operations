@@ -1,6 +1,8 @@
 # General
 This project contains the code of a solution for a coding challenge I received.
 The code was written in Python 3 on the 23/08/2019.
+It is important to note that the code may generate significant CPU load at times (relative to a regular home PC).
+
 
 # Terms and content of the Challenge
 Background information:
