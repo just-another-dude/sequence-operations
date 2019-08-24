@@ -61,3 +61,9 @@ Calculate the sum of all the elements of the above mentioned second-longest sequ
 * Sort the length list in a growing order and slice it to the 2nd longest sequence length.
 * Since both the sum and length lists should contain an equal amount of elements, a match must be made by indexing the value of the second longest length from the length list and then returning the sum for the same element index in the sum list, thereby finding and printing out the sum of the second longest sequence.  
 * In the end, print out the run time of the program in seconds by subtracting the 'finish_time' variable containing the time at the end of the program with the 'start_time' variable in the beginning.
+  
+  
+# Program Output
+Second longest sequence has 668 elements!
+Sum of second longest sequence is:  662065666072
+Run time of the program was 1117.8485362529755 seconds
