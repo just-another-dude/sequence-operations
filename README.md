@@ -64,6 +64,6 @@ Calculate the sum of all the elements of the above mentioned second-longest sequ
   
   
 # Program Output
-Second longest sequence has 668 elements!
-Sum of second longest sequence is:  662065666072
+Second longest sequence has 668 elements!  
+Sum of second longest sequence is:  662065666072  
 Run time of the program was 1117.8485362529755 seconds
