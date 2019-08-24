@@ -2,8 +2,8 @@
 This project contains the code of a solution for a coding challenge I received.  
 The code was written in Python 3 on the 23/08/2019.  
 It is important to note that the code may generate significant CPU load at times (relative to a regular home PC).  
-
-
+  
+  
 # The Terms and Content of the Challenge
 Background information:  
 You can choose the programming language you feel the most comfortable with.  
@@ -50,4 +50,12 @@ The longest sequence for input <= 10000 has a length of 262
 
 
 
-Calculate the sum of all the elements of the above mentioned second-longest sequence and share your result. Also, please include your source code.
+Calculate the sum of all the elements of the above mentioned second-longest sequence and share your result. Also, please include your source code.  
+  
+  
+# Solution Workflow
+* Import the module "time" and save the start time of the program to later calculate the run time.  
+* Create two lists - one containing the length of each sequence per integer, the other containing the sum of each sequence per integer.  
+* Run a for loop on the range of integers between 1 and 10,000,001.  
+* Create a while loop under which the calculations for each integer will be made and break out of it once the sequence reaches 1.  
+* 
