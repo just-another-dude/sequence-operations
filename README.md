@@ -57,5 +57,6 @@ Calculate the sum of all the elements of the above mentioned second-longest sequ
 * Import the module "time" and save the start time of the program to later calculate the run time.  
 * Create two lists - one containing the length of each sequence per integer, the other containing the sum of each sequence per integer.  
 * Run a for loop on the range of integers between 1 and 10,000,001.  
-* Create a while loop under which the calculations for each integer will be made and break out of it once the sequence reaches 1.  
-* 
+* Create a while loop under which the calculations for each integer will be made and break out of it once the sequence reaches 1, appending the length and sum of the sequence to the relevant lists.  
+* Sort the length list in a growing order and slice it to the 2nd longest sequence length.
+* Since both the sum and length lists should contain an equal amount of elements, a match must be made by indexing the value of the second longest length from the length list and then returning the sum for the same element index in the sum list, thereby finding and printing out the sum of the second longest sequence.  
