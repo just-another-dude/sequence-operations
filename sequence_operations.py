@@ -1,3 +1,8 @@
+# Modules
+import time
+
+# Variables
+start_time = time.time()
 length_list = []
 sum_list = []
 
@@ -11,7 +16,7 @@ for positive_integer in range(1, 10000001):
             sum_list.append(sum(integer_list))  # Append the sum of the sequence to the sum list.
             length_list.append(len(integer_list))  # Append the length of the sequence to the length list.
             break
-            
+
         # If even - divide by 2 with an integer type result (not float as opposed to using "/").
         # Else (if odd) - multiply by 3 and add 1.
         if positive_integer % 2 == 0:
@@ -19,9 +24,10 @@ for positive_integer in range(1, 10000001):
         else:  # If odd
             positive_integer = (positive_integer * 3) + 1
 
-print("Sum list: ", length_list)
+# Initial length list where each element is the length of the sequence for each integer.
+print("Initial length list: ", length_list)
 
-# Sort the list from small to big in terms of values.
+# Sort the length list from small to big in terms of values.
 sorted_length_list = sorted(length_list)
 print("Sorted list: ", sorted(sorted_length_list))
 
@@ -36,3 +42,9 @@ length_index = length_list.index(second_longest_length)
 second_longest_sum = sum_list[length_index]
 
 print("Sum of second longest sequence is: ", second_longest_sum)
+
+finish_time = time.time()
+
+run_time = finish_time - start_time
+
+print("Run time of the program was {} seconds".format(run_time))
